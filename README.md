@@ -1,18 +1,18 @@
 Wan 2.1 & Flux 1.1 Notebook + ComfyUI Workflows
 
-    •	CPU: Ensure that Google’s provided pc has a GPU (Without it, the notebook won’t work). T4 is the only Free Google’s PC with GPU, it’s slower for generating anything but get’s the work done.
+    CPU: Ensure that Google’s provided pc has a GPU (Without it, the notebook won’t work). T4 is the only Free Google’s PC with GPU, it’s slower for generating anything but get’s the work done.
 
-    •	USE_GOOGLE_DRIVE checkbox: This allows to store data in your drive account, it will be stored in there. It’s recommended to leave unchecked because may cause permission issues, or lack-of-space warnings. These are not critical issues but might obstruct the flow of the installation
+    USE_GOOGLE_DRIVE checkbox: This allows to store data in your drive account, it will be stored in there. It’s recommended to leave unchecked because may cause permission issues, or lack-of-space warnings. These are not critical issues but might obstruct the flow of the installation
 
 Also, models and components are, or too big to store in the free Drive storage provided by Google, or too small to impact installation speed. Anyway, everything is downloaded by Google, so the download speed is very fast.
 
-    •	UPDATE_COMFY_UI: Updates ComfyUI. Leave checked.
+    UPDATE_COMFY_UI: Updates ComfyUI. Leave checked.
 
-    •	USE_COMFYUI_MANAGER: Leave this checked. The manager makes easier to install future dependencies, missing nodes or look for new ones.
+    USE_COMFYUI_MANAGER: Leave this checked. The manager makes easier to install future dependencies, missing nodes or look for new ones.
 
-    •	INSTALL_CUSTOM_NODES_DEPENDENCIES: Makes what it says. Leave checked.
+    INSTALL_CUSTOM_NODES_DEPENDENCIES: Makes what it says. Leave checked.
 
-    •	WAN/FLUX: The two models. Choose one or Google’s pc will run out of free space in disk and server will not open. (How to change between models will be explained later).
+    WAN/FLUX: The two models. Choose one or Google’s pc will run out of free space in disk and server will not open. (How to change between models will be explained later).
 
 Run:
 
